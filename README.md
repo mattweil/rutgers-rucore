@@ -16,3 +16,8 @@ $ npm install
 $ npm start
 ```
 
+  Since RU Core was designed using MongoDB, you must be running a MongoDB instance locally. You can do this by running the command provided below after completing the MongoDB installation.
+```bash
+mongod
+```
+
