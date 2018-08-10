@@ -1,0 +1,45 @@
+#formbox {
+  width: 600px;
+  height: 350px;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+ #innerformbox {
+    position: absolute;
+    width: 600px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+div.inner12 {
+    padding: 20px 20px 0px 20px;
+    overflow:auto;
+}
+
+#tbox {
+   position: absolute;
+   width: 600px;
+   height: 400px;
+   background-color: #f7f7f7;
+   margin: auto;
+}
+
+#dv_1 {
+
+}
+
+#dv_2 {
+
+}

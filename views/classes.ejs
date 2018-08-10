@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>RU Core</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+
+  <link href="/css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+</head>
+
+<body>
+  <center>
+    <div class="container">
+      <div class="row">
+        <div class="tweleve columns">
+          <center>
+            <h1><b><span class="red"><font color="#ba0e28">RU</font></span><font color = "black"> Core</font></b></h1></center>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="tweleve columns" style="background-color: #f7f7f7;">
+        <br>
+        <h3><font color = 'black'></font></h3>
+        <h5><font color='black'>The classes listed satisfy the core requirements you provided.</font></h5>
+
+        <ul>
+          <% classes.forEach(function(data) { %>
+              <div class='row'>
+                <div class='tweleve columns'>
+                    <div style='background-color: #f7f7f7; border-radius: 2px; width: 600px; border:1px solid #a5a5a5;'>
+                      <div style='background-color: #a5a5a5;'><b><font size='3'><font color='black'><%= data.courseIndex %></font></font></b></div>
+
+
+                        <font size='3'color='black'><strong>Course Title: </strong></font><font color=#515151><%= data.courseTitle %></font><br/>
+                        <font size='3'color='black'><strong>Course Index: </strong></font><font color=#515151><%= data.courseIndex %></font><br/>
+                        <font size='3'color='black'><strong>Core Requirements: </strong></font><font color=#515151><%= data.coreCodes %> </font><br/>
+                        <font size='3'color='black'><strong>Credits: </strong></font>
+                        <font color=#515151><%= data.credits %></font>
+
+
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <br>
+                <% }); %>
+
+        </ul>
+        <br>
+      </div>
+
+
+    </div>
+    <center>
+</body>
+
+
+<br>
+
+
+</html>
