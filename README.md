@@ -25,3 +25,6 @@ mongod
 ```bash
 rucore
 ```
+## License
+
+  [ISC](https://opensource.org/licenses/ISC)
