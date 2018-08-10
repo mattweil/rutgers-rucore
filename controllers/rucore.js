@@ -20,11 +20,10 @@ module.exports = {
     var classes = [];
 
     if (cores.length == 1) {
-      Class.find({
-        coreCodes: {
-          "$in": cores
-        }
-      }, function(err, classes) {
+      Class.find({coreCodes: {
+        "$all":cores
+      }
+       }, function(err, classes) {
         var i;
         var times = [];
         for (i = 0; i < classes.length; i++) {
