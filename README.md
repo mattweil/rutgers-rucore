@@ -10,7 +10,7 @@ RU Core is a JavaScript application that allows Rutgers students to quickly find
 $ npm install
 ```
 
-  Next, initialize the by executing the following command:
+  Then you can initialize server the by executing the following command:
 
 ```bash
 $ npm start
