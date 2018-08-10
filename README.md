@@ -21,7 +21,7 @@ $ npm start
 mongod
 ```
 
- Once your database is up and running you can now fill it with course data using the [Rutgers SOC Parser](https://github.com/mattweil/rutgers-soc-parser)
+ Once your database is up and running you can now fill it with course data using the [Rutgers SOC Parser](https://github.com/mattweil/rutgers-soc-parser). Simply run the program and type the following command:
 ```bash
-mongod
+rucore
 ```
