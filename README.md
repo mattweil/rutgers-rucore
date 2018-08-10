@@ -4,8 +4,15 @@ RU Core is a JavaScript application that allows Rutgers students to quickly find
 
 ## Getting Started
 
-  To begin, install the dependencies required for RU Core by running executing the following command within the project folder:
+  To begin, install the dependencies required by running executing the following command within the project folder:
 
 ```bash
 $ npm install
 ```
+
+  Next, initialize the by executing the following command:
+
+```bash
+$ npm start
+```
+
